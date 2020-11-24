@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HD Videos Downloader for FB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_facebook">Open Your Account</string>
+    <string name="vid_download">Download</string>
+    <string name="view_downloads">View Downloads</string>
+    <string name="down_vid">Download Video</string>
+    <string name="strm_vid">Watch Video</string>
+    <string name="cancel">Cancel</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5377047071783220/7200204260</string>
+    <string name="inter_ad_unit_id">ca-app-pub-5377047071783220/2630403867</string>
+    <string name="tab_fb">Account</string>
+    <string name="tab_download">Downloads</string>
+
+</resources>

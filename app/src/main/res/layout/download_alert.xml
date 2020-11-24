@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <Button
+        android:id="@+id/download_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|fill_vertical"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:text="@string/down_vid"/>
+    <Button
+        android:id="@+id/stream_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_below="@id/download_video"
+        android:padding="10dp"
+        android:gravity="left|fill_vertical"
+        android:text="@string/strm_vid"/>
+    <Button
+        android:id="@+id/close_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_below="@id/stream_video"
+        android:padding="10dp"
+        android:text="@string/cancel"/>
+
+</RelativeLayout>
